@@ -35,6 +35,14 @@ li {
     transition: all ease 0.5s;
 }
 
+.heading.lv2 {
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.33;
+}
+
 /* ========== HEADER ========== */
 .header {
     background: #fff;
@@ -305,7 +313,7 @@ li {
     margin-left: -10px;
 }
 
-.avatar.quantiy-students {
+.avatar.quantity-students {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -315,4 +323,69 @@ li {
     color: #fff;
     font-size: 1rem;
     font-weight: 500;
+}
+
+/* ========== FEATURES ========== */
+.features {
+    padding: 30px 0;
+    margin-top: 100px;
+}
+
+.features .feature-content .eyebrow {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.feature-content .heading.lv2 {
+    margin-top: 18px;
+    max-width: 577px;
+}
+
+.feature-content .desc {
+    margin-top: 18px;
+    max-width: 590px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.features .feature-list {
+    margin-top: 80px;
+    display: flex;
+}
+
+.feature-list .item:first-child {
+    margin-right: 209px;
+}
+
+.feature-list .item:first-child .desc {
+    max-width: 168px;
+}
+
+.feature-list .item:nth-child(2) {
+    margin-right: 200px;
+}
+
+.feature-list .item:nth-child(2) .desc,
+.feature-list .item:nth-child(3) .desc {
+    max-width: 223px;
+}
+
+.feature-list .title {
+    margin-top: 26px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.feature-list .desc {
+    margin-top: 16px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.69; /* 168.75% */
 }
