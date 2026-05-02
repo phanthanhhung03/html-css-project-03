@@ -543,7 +543,7 @@ li {
 /* ========== FEEDBACK ==========*/
 .feedback {
     margin-top: 241px;
-    padding: 30px 0;
+    padding: 30px 0 83px;
 }
 
 .feedback .feedback-body {
@@ -673,4 +673,51 @@ li {
 .feedback-avatars .avatar-5 {
     bottom: -110px;
     right: -139px;
+}
+
+/* ========== CTA ========== */
+.cta {
+    margin-top: 130px;
+    background: #def6f5;
+}
+
+.cta .cta-inner {
+    padding: 76px 0 86px;
+
+    display: flex;
+    align-items: center;
+}
+
+.cta-inner .cta-content {
+    margin-right: 410px;
+}
+
+.cta-inner .cta-content .heading.lv2 {
+    color: #070707;
+    line-height: normal;
+}
+
+.cta-inner .cta-content .cta-desc {
+    margin-top: 18px;
+    max-width: 397px;
+
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cta-inner .cta-action .btn-primary {
+    padding: 20px 41px 21px;
+    border-radius: 14px;
+    border: none;
+    background: #2ac9bf;
+
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
