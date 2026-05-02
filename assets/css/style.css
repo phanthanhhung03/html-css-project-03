@@ -327,6 +327,7 @@ li {
 }
 
 .media-block .media-card--students .avatar {
+    margin-top: 8px;
     width: 33px;
     height: 33px;
     object-fit: cover;
